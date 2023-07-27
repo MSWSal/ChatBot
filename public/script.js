@@ -36,4 +36,6 @@ if(data.message) {
     answer.classList.add("box", "answer")
     parentDiv.appendChild(answer)
   }
+
+  
 }
