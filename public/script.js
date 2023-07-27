@@ -3,6 +3,7 @@ btn.addEventListener('click',getResponse)
 
 async function getResponse(){
     var inputText = document.getElementById("input").value
+    console.log(inputText)
     const parentDiv = document.getElementById("chat-area")
 
     if(inputText === ''){
@@ -23,7 +24,7 @@ async function getResponse(){
       "Content-Type": 'application/json'                
     },
     body: JSON.stringify({
-      question: inputText          
+      question: "hello"          
     })
   }
 )
