@@ -29,4 +29,11 @@ async function getResponse(){
 )
     
 const data = await res.json() 
+
+if(data.message) {
+    const answer = document.createElement('div')
+    answer.innerHTML = data.message
+    answer.classList.add("box", "answer")
+    parentDiv.appendChild(answer)
+  }
 }
