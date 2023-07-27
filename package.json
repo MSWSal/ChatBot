@@ -1,0 +1,24 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MSWSal/ChatBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MSWSal/ChatBot/issues"
+  },
+  "homepage": "https://github.com/MSWSal/ChatBot#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "openai": "^3.3.0"
+  }
+}
